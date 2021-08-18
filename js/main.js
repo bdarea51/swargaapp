@@ -12,6 +12,9 @@ const demo = document.querySelector("#demo");
 demo.innerText = "Dev Feedback"; demo.addEventListener("click", function () {
     window.open("https://m.me/yoamishishir", "_blank");
 });
+document.querySelector(".amishishir").addEventListener("click",function(){
+window.open("https://www.facebook.com/yoamishishir","_blank");
+});
 const body = document.querySelector("body");
 const passBox = prompt("Give password for accese this page");
 if (passBox == "naughty america") {
